@@ -72,6 +72,7 @@ export default {
     USE_CHANNEL_MENTIONS: 'use_channel_mentions',
     USE_GROUP_MENTIONS: 'use_group_mentions',
     START_DIRECT_MESSAGE: 'start_direct_message',
+    LIST_CHANNEL_MEMBERS: 'list_channel_members',
 
     CHANNEL_MODERATED_PERMISSIONS: {
         CREATE_POST: 'create_post',
