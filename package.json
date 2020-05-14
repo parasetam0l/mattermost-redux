@@ -1,12 +1,12 @@
 {
   "name": "mattermost-redux",
-  "version": "5.3.1.2",
+  "version": "5.3.1.3",
   "description": "Common code (API client, Redux stores, logic, utility functions) for building a Mattermost client",
-  "homepage": "https://github.com/mattermost/mattermost-redux",
+  "homepage": "https://github.com/parasetam0l/mattermost-redux",
   "license": "Apache-2.0",
-  "repository": "github:mattermost/mattermost-redux",
+  "repository": "github:parasetam0l/mattermost-redux",
   "bugs": {
-    "url": "https://github.com/mattermost/mattermost-redux/issues"
+    "url": "https://github.com/parasetam0l/mattermost-redux/issues"
   },
   "scripts": {
     "start": "ttsc --watch",
