@@ -23,13 +23,15 @@ export function displayUsername(
 ): string {
     let name = useFallbackUsername ? localizeMessage('channel_loader.someone', 'Someone') : '';
     if (user) {
-        if (teammateNameDisplay === Preferences.DISPLAY_PREFER_NICKNAME) {
+        /*if (teammateNameDisplay === Preferences.DISPLAY_PREFER_NICKNAME) {
             name = user.nickname || getFullName(user);
         } else if (teammateNameDisplay === Preferences.DISPLAY_PREFER_FULL_NAME) {
             name = getFullName(user);
         } else {
             name = user.username;
-        }
+        }*/
+
+        name = user.nickname || getFullName(user);
 
         if (!name || name.trim().length === 0) {
             name = user.username;
