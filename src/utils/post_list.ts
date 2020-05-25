@@ -74,7 +74,8 @@ export function makeFilterPostsAndAddSeparators() {
                 }
 
                 // Filter out join/leave messages if necessary
-                if (shouldFilterJoinLeavePost(post, showJoinLeave, currentUser.username)) {
+                //false => showJoinLeave
+                if (shouldFilterJoinLeavePost(post, false, currentUser.username)) {
                     continue;
                 }
 
