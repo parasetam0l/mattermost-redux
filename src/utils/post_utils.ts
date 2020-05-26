@@ -145,8 +145,10 @@ export function shouldFilterJoinLeavePost(post: Post, showJoinLeave: boolean, cu
         return false;
     }
 
+    return true;
+
     // Don't filter out join/leave messages about the current user
-    return !isJoinLeavePostForUsername(post, currentUsername);
+    //return !isJoinLeavePostForUsername(post, currentUsername);
 }
 
 function isJoinLeavePostForUsername(post: Post, currentUsername: string): boolean {
