@@ -62,6 +62,14 @@ export function isSystemAdmin(roles: string): boolean {
     return rolesIncludePermission(roles, General.SYSTEM_ADMIN_ROLE);
 }
 
+export function isExhibitorUser(roles: string): boolean {
+    return rolesIncludePermission(roles, General.EXHIBITOR_USER_ROLE);
+}
+
+export function isVisitorUser(roles: string): boolean {
+    return rolesIncludePermission(roles, General.VISITOR_USER_ROLE);
+}
+
 export function isChannelAdmin(roles: string): boolean {
     return rolesIncludePermission(roles, General.CHANNEL_ADMIN_ROLE);
 }
